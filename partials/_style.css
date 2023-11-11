@@ -1,0 +1,25 @@
+#browse{
+    min-height: 433px;
+}
+
+#jumb{
+    background-color: darkgray;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+} 
+#fluid-jumbo{
+    background-color: darkgray;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/* #cantain{
+   min-width: 40px;
+} */
+/* #img-circle{
+    border-radius: 100px;
+} */
