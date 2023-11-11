@@ -92,7 +92,7 @@ if(isset($_POST['submit'])){
 
 <body>
     
-    <?php include 'C:\xampp\htdocs\NEW\Project - Forum\partials\_header.php'; ?>
+    <?php include 'C:\xampp\htdocs\NEW\Forum\partials\_header.php'; ?>
 
     <div class="container my-5">
         <div class="row">
@@ -112,7 +112,7 @@ if(isset($_POST['submit'])){
                                 <a style="text-decoration:none;float: right;color: #187FAB;" data-toggle="tooltip" title="Reset Password" href="forgot_password.php">Forgot?</a>
                             </div>
                             <!-- <a style="text-decoration: none;float: right;color: #00CCFF;" data-toggle="tooltip"
-                                title="Create Account!" href="/NEW/Project - Forum/signup.php">Don't have
+                                title="Create Account!" href="/NEW/Forum/signup.php">Don't have
                                 an account?</a><br><br> -->
 
                             <center><button type="submit" id="login" name="submit" class="btn btn-info btn-lg">Login</button></center>
@@ -122,7 +122,7 @@ if(isset($_POST['submit'])){
         </div>
     </div><br>
 
-    <?php include 'C:\xampp\htdocs\NEW\Project - Forum\partials\_footer.php'; ?>
+    <?php include 'C:\xampp\htdocs\NEW\Forum\partials\_footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">

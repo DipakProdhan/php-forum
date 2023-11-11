@@ -97,7 +97,7 @@ if(isset($_POST['sign_up'])){
 <body>
     
    
-    <?php include 'C:\xampp\htdocs\NEW\Project - Forum\partials\_header.php'; ?>
+    <?php include 'C:\xampp\htdocs\NEW\Forum\partials\_header.php'; ?>
    
 
     <div class="container my-5">
@@ -138,7 +138,7 @@ if(isset($_POST['sign_up'])){
                                     <input type="text" required="required" class="form-control" id="recovery_account"
                                         name="recovery_account" placeholder="recovery_account">
                                 </div>
-                                <!-- <a style="text-decoration: none;float: right;color: #00CCFF;" data-toggle="tooltip" title="Signin" href="\NEW\Project - Forum\login.php">Already have an account?</a><br><br> -->
+                                <!-- <a style="text-decoration: none;float: right;color: #00CCFF;" data-toggle="tooltip" title="Signin" href="\NEW\Forum\login.php">Already have an account?</a><br><br> -->
                                 <center>
                                     <button type="submit" id="sign_up" name="sign_up"
                                         class="btn btn-primary">Signup</button>
@@ -152,7 +152,7 @@ if(isset($_POST['sign_up'])){
         </div>
     </div>
 
-    <?php include 'C:\xampp\htdocs\NEW\Project - Forum\partials\_footer.php'; ?>
+    <?php include 'C:\xampp\htdocs\NEW\Forum\partials\_footer.php'; ?>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">

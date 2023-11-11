@@ -4,14 +4,14 @@ session_start();
 
 echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/NEW/Project - Forum/index.php">AllinOne</a>
+    <a class="navbar-brand" href="/NEW/Forum/index.php">AllinOne</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/NEW/Project - Forum/index.php">Home</a>
+          <a class="nav-link active" aria-current="page" href="/NEW/Forum/index.php">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="about.php">About</a>
@@ -48,13 +48,13 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin']==true){
       <button class="btn btn-success" type="submit" name="search">Search</button>
       </form>
       <p class="text-light my-1 mx-3">Welcome '. $_SESSION['user_name'].' </p>
-      <a href="\NEW\Project - Forum\logout.php" class="btn btn-outline-success ml-2">Logout</a>';
+      <a href="\NEW\Forum\logout.php" class="btn btn-outline-success ml-2">Logout</a>';
 }
 else{
   echo '
 
-  <a href="\NEW\Project - Forum\login.php" class="btn btn-outline-success mx-2" tabindex="-1" aria-disabled="true">Login</a>
-  <a href="\NEW\Project - Forum\signup.php" class="btn btn-outline-success mx-2" tabindex="-1" aria-disabled="true">Signin</a>';
+  <a href="\NEW\Forum\login.php" class="btn btn-outline-success mx-2" tabindex="-1" aria-disabled="true">Login</a>
+  <a href="\NEW\Forum\signup.php" class="btn btn-outline-success mx-2" tabindex="-1" aria-disabled="true">Signin</a>';
 }
 echo '</div>
   </div>
